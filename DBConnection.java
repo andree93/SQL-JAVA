@@ -24,7 +24,7 @@ public class DBConnection {
         this.port = port;
     }
 
-    public Connection getConnection() throws SQLException {
+    public Connection getConnection() throws SQLException { //Singleton
         if (connection == null){
             MysqlDataSource mysqlDataSource = new MysqlDataSource();
             mysqlDataSource.setDatabaseName (dbname);
