@@ -1,7 +1,7 @@
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
+import java.util.ArrayList; //Una hashmap sarebbe stata piu appropriata in questo caso
 import java.sql.Connection;
 import java.util.List;
 
