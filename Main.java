@@ -63,9 +63,13 @@ public class Main {
                     break;
                 }
                 case 2: {
+                    System.out.println ("Inserisci Nome: ");
                     String tmpnome = in.nextLine ( );
+                    System.out.println ("Inserisci Cognome: ");
                     String tmpcognome = in.nextLine ( );
+                    System.out.println ("Inserisci Citta: ");
                     String tmpcitta = in.nextLine ( );
+                    System.out.println ("Inserisci Numero: ");
                     String tmpnumero = in.nextLine ( );
                     try {
                         dbQuery.inserisci (tmpnome, tmpcognome, tmpcitta, tmpnumero);
