@@ -113,6 +113,9 @@ public class Main {
                 }
                 case 5:
                     System.exit (0);
+                default:
+                    System.out.println("Scelta non valida, riprova");
+                    break;
             }
 
 
