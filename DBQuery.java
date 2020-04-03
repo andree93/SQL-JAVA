@@ -5,6 +5,15 @@ import java.util.ArrayList;
 import java.sql.Connection;
 import java.util.List;
 
+/**
+
+Il Db dovrà avere i seguenti campi:
+nome (VARCHAR)
+cognome (VARCHAR)
+citta (VARCHAR)
+numero (VARCHAR), PK
+*/
+
 public class DBQuery {
     Connection connection = null;
     public static String QUERY_SELECT_NOME = "FROM persone SELECT * WHERE nome = ";
